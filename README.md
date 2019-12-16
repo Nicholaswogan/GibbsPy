@@ -8,7 +8,7 @@ I suggest using only the following 4 fuctions: gibbs, gibbsAQ, henrys_coef, and 
 
 **gibbsAQ(species, T, P)** - Calculates the Gibbs energy of formation of a AQUEOUS PHASE species at temperature T (kelvin), and pressure P (bar). This function uses the [SUPCRT thermodynamic database](https://www.sciencedirect.com/science/article/pii/009830049290029Q).
 
-**henrys_coef(species, T, P)** - Calculates the Henry law coefficient (mol L$^{-1}$ bar$^{-1}$) of a species at temperature T (kelvin), and pressure P (bar).
+**henrys_coef(species, T, P)** - Calculates the Henry law coefficient (mol L<sup>-1</sup> bar<sup>-1</sup>) of a species at temperature T (kelvin), and pressure P (bar).
 
 **fugcoef(temperature, pressure, names, n)** - This function uses the Soave Equation (see Equation 27 and 28 in [Krissansen-Totton et al. 2016](https://www.liebertpub.com/doi/full/10.1089/ast.2015.1327?casa_token=LVXXfDQznwEAAAAA%3AiKsmU_1GdJO4ifGxVA30LzbPhFSMKexWc0gaJrDNxCf7D_i0ae9ym2ylWijp8dkpZOwp4ZC_Ivcr)) to calculate fugacity coefficients. Inputs are temperature (kelvin), pressure (bar), names (species names), and mol fraction of each species (n).
 

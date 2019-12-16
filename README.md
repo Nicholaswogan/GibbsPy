@@ -4,9 +4,9 @@ This is a Python function that calculates several thermodynamic parameters like 
 ## Functions
 I suggest using only the following 4 fuctions: gibbs, gibbsAQ, henrys_coef, and fugcoef. Gibbs energies calculated with these functions use the "normal" convention for Gibbs energy of formation as used on [this wikipedia page](https://en.wikipedia.org/wiki/Standard_Gibbs_free_energy_of_formation).
 
-**gibbs(species, T)** - Calculates the Gibbs energy of formation of a GAS PHASE species at temperature T (kelvin). This function uses the [NASA thermodynamic database](https://publications.anl.gov/anlpubs/2005/07/53802.pdf).
+**gibbs(species, T)** - Calculates the Gibbs energy of formation (in units J/mol) of a GAS PHASE species at temperature T (kelvin). This function uses the [NASA thermodynamic database](https://publications.anl.gov/anlpubs/2005/07/53802.pdf).
 
-**gibbsAQ(species, T, P)** - Calculates the Gibbs energy of formation of a AQUEOUS PHASE species at temperature T (kelvin), and pressure P (bar). This function uses the [SUPCRT thermodynamic database](https://www.sciencedirect.com/science/article/pii/009830049290029Q).
+**gibbsAQ(species, T, P)** - Calculates the Gibbs energy of formation (in units J/mol) of a AQUEOUS PHASE species at temperature T (kelvin), and pressure P (bar). This function uses the [SUPCRT thermodynamic database](https://www.sciencedirect.com/science/article/pii/009830049290029Q).
 
 **henrys_coef(species, T, P)** - Calculates the Henry law coefficient (mol L<sup>-1</sup> bar<sup>-1</sup>) of a species at temperature T (kelvin), and pressure P (bar).
 

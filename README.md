@@ -1,5 +1,5 @@
 # GibbsPy
-This program calculates the gas phase or aqueous phase gibbs energy of formation.
+This is a Python function that calculates the gas phase or aqueous phase gibbs energy of formation.
 
 ## Functions
 I suggest using only the following 4 fuctions: gibbs, gibbsAQ, henrys_coef, and fugcoef.

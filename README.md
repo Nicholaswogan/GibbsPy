@@ -1,6 +1,12 @@
 # GibbsPy
 This is a Python function that calculates several thermodynamic parameters like gas phase or aqueous phase gibbs energy of formation.
 
+## Installation
+First, download or clone this repository and then navigate to the repository with a bash terminal. Finally, you can install GibbsPy with with pip command
+```bash
+pip install .
+```
+
 ## Functions
 I suggest using only the following 4 fuctions: gibbs, gibbsAQ, henrys_coef, and fugcoef. Gibbs energies calculated with these functions use the "normal" convention for Gibbs energy of formation as used on [this wikipedia page](https://en.wikipedia.org/wiki/Standard_Gibbs_free_energy_of_formation).
 

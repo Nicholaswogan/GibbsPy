@@ -1,0 +1,4 @@
+include GibbsPy/NEWNASA.TXT
+include GibbsPy/NEWNASA_tiny.TXT
+include GibbsPy/fugacityCoefficientVariables.txt
+include GibbsPy/sprons96_edited2.dat

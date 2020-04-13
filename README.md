@@ -9,8 +9,8 @@ pip install .
 
 ## Usage
 ```python
-from GibbsPy import thermodynamics as thermo
-thermo.gibbs('CO2  ',298)
+from GibbsPy import thermodynamics as thermo # import
+thermo.gibbs('CO2  ',298) # Calculate the standard Gibbs energy of gas-phase CO2 at 298 kelvin.
 ```
 
 

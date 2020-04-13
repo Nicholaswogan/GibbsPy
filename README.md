@@ -7,6 +7,13 @@ First, download or clone this repository and then navigate to the repository wit
 pip install .
 ```
 
+## Usage
+```python
+from GibbsPy import thermodynamics as thermo
+thermo.gibbs('CO2  ',298)
+```
+
+
 ## Functions
 I suggest using only the following 4 fuctions: gibbs, gibbsAQ, henrys_coef, and fugcoef. Gibbs energies calculated with these functions use the "normal" convention for Gibbs energy of formation as used on [this wikipedia page](https://en.wikipedia.org/wiki/Standard_Gibbs_free_energy_of_formation).
 
